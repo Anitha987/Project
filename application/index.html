@@ -15,6 +15,13 @@
 
 </head>
 <body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#">Home</a>
+          <a href="#">Services</a>
+        </div>
+    </div>
     <div class="container">
         <h1>Akan application</h1>
         <form action="/action page.php">
@@ -24,18 +31,19 @@
         Enter the century:<input type="text" id="num4">
         </form>
         <p>select your gender.</p>
-        <div id="gende">
+        <div id="gender">
               <form action="">
                 <input id="man" type="radio"name="gender"value="male">Male<br>
-                <input id="woman" type="radio"name="gender"value="woman">Woman<br>
+                <input id="woman" type="radio"name="gender"value="female">Female<br>
                 <button type="button" onclick="add()">Result</button>
               </form>
                         
         </div>  
             
     </div>
-    <p id="inkoko"></p> 
+    
+         <p id="house" style="margin: 70"></p> 
     <div id="anny"></div>
-    <script src="js/file.js"></script>
+    <script src="js/script.js"></script>
 </body>  
 </html>  
