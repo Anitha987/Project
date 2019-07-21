@@ -7,7 +7,7 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
   }
-  input[type=submit] {
+  input[type=Result] {
     width: 100%;
     background-color: #4CAF50;
     color: white;
@@ -18,7 +18,7 @@ input[type=text], select {
     cursor: pointer;
   }
   
-  input[type=submit]:hover {
+  input[type=Result]:hover {
     background-color: #45a049;
   }
   
